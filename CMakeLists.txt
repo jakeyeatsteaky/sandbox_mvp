@@ -79,6 +79,7 @@ if (USE_HARDMODE)
         )
     else()
         add_compile_options(
+            -g
             -Wall
             -Wextra
             -Wpedantic
